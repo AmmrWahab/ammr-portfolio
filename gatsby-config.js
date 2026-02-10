@@ -1,13 +1,14 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/ammr-portfolio',
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Ammr Wahab | MERN Stack Developer',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+      'Experienced MERN Stack Developer building scalable, secure, and high-performance web applications with React.js, Node.js, Express.js, and MongoDB. Focused on real-time platforms, AI-powered applications, and automated systems.',
+    siteUrl: 'https://AmmrWahab.github.io/ammr-portfolio',
+    image: '/og.png',
+    twitterUsername: '@AmmrWahab_01',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,9 +21,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
-        start_url: '/',
+        name: 'Ammr Wahab',
+        short_name: 'Ammr Wahab',
+        start_url: '/ammr-portfolio/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
