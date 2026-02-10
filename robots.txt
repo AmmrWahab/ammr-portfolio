@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://brittanychiang.com/sitemap.xml
-Host: https://brittanychiang.com
+Sitemap: https://ammrwahab.github.io/sitemap.xml
+Host: https://ammrwahab.github.io
