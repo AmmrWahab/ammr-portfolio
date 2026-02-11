@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'NexChat'
-cover: './nexchat.png'
+cover: '/nexchat.png'
 external: 'https://github.com/AmmrWahab/nexchat'
 cta: 'https://github.com/AmmrWahab/nexchat'
 tech:

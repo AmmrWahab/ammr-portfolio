@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, withPrefix } from 'gatsby';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled, { css } from 'styled-components';
@@ -181,19 +181,28 @@ const Nav = ({ isHome }) => {
   const fadeClass = isHome ? 'fade' : '';
   const fadeDownClass = isHome ? 'fadedown' : '';
 
+  
+
   const Logo = (
     <div className="logo" tabIndex="-1">
-      <Link to="/" aria-label="home">
-        <div className="hex-container">
+      <a 
+        href="/" 
+        aria-label="home"
+        onClick={(e) => {
+          e.preventDefault();
+          window.location.reload(); // ← Force refresh the page
+        }}
+        style={{ cursor: 'pointer' }}
+      >
+        <div className="hex-container" style={{ pointerEvents: 'none' }}>
           <IconHex />
         </div>
-        <div className="logo-container">
+        <div className="logo-container" style={{ pointerEvents: 'none' }}>
           <IconLogo />
         </div>
-      </Link>
+      </a>
     </div>
   );
-
 
   const ResumeLink = (
     <a

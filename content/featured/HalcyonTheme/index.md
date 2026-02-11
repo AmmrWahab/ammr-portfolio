@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Car Rental'
-cover: './rental.png'
+cover: '/rental.png'
 github: ''
 external: 'https://www.rracerltd.com//'
 tech:

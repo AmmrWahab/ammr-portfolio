@@ -1,7 +1,6 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '/ammr-portfolio',
   siteMetadata: {
     title: 'Ammr Wahab | MERN Stack Developer',
     description:

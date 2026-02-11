@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'MindSpace'
-cover: './mindspace.png'
+cover: '/mindspace.png'
 github: 'https://github.com/AmmrWahab/mindspace-app'
 external: 'https://mindspace-app.vercel.app/'
 tech:
