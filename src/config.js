@@ -18,10 +18,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/ammr-wahab-597541224/',
     },
-    {
-      name: 'Codepen',
-      url: '',
-    },
   ],
 
   navLinks: [
