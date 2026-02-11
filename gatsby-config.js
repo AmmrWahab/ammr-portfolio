@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Experienced MERN Stack Developer building scalable, secure, and high-performance web applications with React.js, Node.js, Express.js, and MongoDB. Focused on real-time platforms, AI-powered applications, and automated systems.',
     siteUrl: 'https://AmmrWahab.github.io/ammr-portfolio',
-    image: '/og.png',
+    image: '/og1.png',
     twitterUsername: '@AmmrWahab_01',
   },
   plugins: [
