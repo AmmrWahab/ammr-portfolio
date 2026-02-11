@@ -5,7 +5,7 @@ module.exports = {
     title: 'Ammr Wahab | MERN Stack Developer',
     description:
       'Experienced MERN Stack Developer building scalable, secure, and high-performance web applications with React.js, Node.js, Express.js, and MongoDB. Focused on real-time platforms, AI-powered applications, and automated systems.',
-    siteUrl: 'https://AmmrWahab.github.io/ammr-portfolio',
+    siteUrl: 'https://ammr-portfolio.vercel.app',
     image: '/og1.png',
     twitterUsername: '@AmmrWahab_01',
   },
